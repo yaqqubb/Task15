@@ -1,0 +1,34 @@
+﻿@model Task15.Models.Entities.Countries
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+
+    <dl>
+        <dt>Name</dt>
+        <dd>@Model.Name</dd>
+
+
+        <dt>Id</dt>
+        <dd>@Model.Id</dd>
+
+        <dt>Code</dt>
+        <dd>@Model.Code</dd>
+    </dl>
+
+    <a href="/countries/index">Go back</a>
+
+</body>
+</html>
+
+ 
